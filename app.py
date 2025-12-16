@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import networkx as nx
+#import networkx as nx
 import folium
 from streamlit_folium import folium_static
 import matplotlib.pyplot as plt
@@ -1110,4 +1110,5 @@ def main():
         chatbot_interface()
 
 if __name__ == "__main__":
+
     main()
