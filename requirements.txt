@@ -1,0 +1,22 @@
+# Requirements for Metro Navigation System
+# Generated from imports in app.py (detected dependencies)
+streamlit>=1.25
+pandas>=1.5
+numpy>=1.23
+networkx>=3.0
+folium>=0.14
+streamlit-folium>=0.11
+matplotlib>=3.5
+Pillow>=9.0
+plotly>=5.10
+scikit-learn>=1.2
+altair>=5.1
+# Optional: speech recognition for voice input
+# Install if you plan to use microphone/voice features
+SpeechRecognition>=3.8
+
+# Optional (Windows): microphone audio support often requires PyAudio.
+# Installing PyAudio via pip on Windows can be problematic; consider pipwin:
+# pip install pipwin
+# pipwin install pyaudio
+
